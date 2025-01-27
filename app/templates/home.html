@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+
+{% block title %}Home - Blockchain Platform{% endblock %}
+
+{% block content %}
+<section class="hero">
+    <h1>Welcome to Our Blockchain Platform</h1>
+    <p>Explore our innovative products and support a decentralized future.</p>
+    <a href="{{ url_for('main.about') }}" class="explore-button">Explore</a>
+</section>
+{% endblock %}
