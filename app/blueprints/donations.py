@@ -39,7 +39,7 @@ def donation_form():
         db.session.add(new_donation)
         db.session.commit()
 
-        # Redirect to a "Thank You" page or another confirmation page
-        return redirect(url_for('donations.thank_you'))
+        # # Redirect to a "Thank You" page or another confirmation page
+        # return redirect(url_for('donations.thank_you'))
 
     return render_template('donation_form.html')
