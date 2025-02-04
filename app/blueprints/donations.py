@@ -23,9 +23,9 @@ def contact_page():  # Renamed to avoid conflict with the model
 
     return render_template('contact.html')
 
-@donations_bp.route('/thank_you')
-def thank_you():
-    return "Thank you for your message!"
+# @donations_bp.route('/thank_you')
+# def thank_you():
+#     return "Thank you for your message!"
 
 @donations_bp.route('/donate/form', methods=['GET', 'POST'])
 def donation_form():
